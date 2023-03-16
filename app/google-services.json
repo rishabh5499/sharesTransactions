@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "125898961194",
+    "project_id": "shares-transactions",
+    "storage_bucket": "shares-transactions.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125898961194:android:023cf28513652557b36e53",
+        "android_client_info": {
+          "package_name": "com.example.sharestransactions"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125898961194-00pss14dio6ihbjvamndrume714s0t7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7aVfpncso_Hh5xJ79tkBWZp0lCJD0K-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125898961194-00pss14dio6ihbjvamndrume714s0t7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

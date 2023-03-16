@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sharestransactions">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SharesTransactions">
+        <activity
+            android:name=".selfTransferInput"
+            android:exported="false" />
+        <activity
+            android:name=".insurance"
+            android:exported="false" />
+        <activity
+            android:name=".lists.mainList"
+            android:exported="false" />
+        <activity
+            android:name=".banks"
+            android:exported="false" />
+        <activity
+            android:name=".lists.otherList"
+            android:exported="false" />
+        <activity
+            android:name=".subLists.selfTransferSubList"
+            android:exported="false" />
+        <activity
+            android:name=".subLists.commoditiesSubList"
+            android:exported="false" />
+        <activity
+            android:name=".subLists.insuranceSubList"
+            android:exported="false" />
+        <activity
+            android:name=".subLists.bankPOSubList"
+            android:exported="false" />
+        <activity
+            android:name=".subLists.stockMarket"
+            android:exported="false" />
+        <activity
+            android:name=".transactions.commodity"
+            android:exported="false" />
+        <activity
+            android:name=".transactions.bank_po"
+            android:exported="false" />
+        <activity
+            android:name=".auth.login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".auth.signUp"
+            android:exported="true" />
+        <activity
+            android:name=".filters"
+            android:exported="false" />
+        <activity
+            android:name=".lists.shortTermList"
+            android:exported="false" />
+        <activity
+            android:name=".transactions.nsc_bonds"
+            android:exported="false" />
+        <activity
+            android:name=".transactions.stockMarketTrxn"
+            android:exported="false" />
+        <activity
+            android:name=".lists.longTermList"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
